@@ -44,11 +44,11 @@ def main():
                        initial_sidebar_state='expanded'
                        )
 
-    st.write('# Telemarketing analysis')
+    st.write('# Telemarketing Analysis')
     st.markdown('---')
 
     st.write('## Purpose')
-    st.write('This is an application to manipulate data from')
+    st.write('This is a simple web application to filter data based on columns and compare the raw and processed data.')
 
     st.sidebar.image(Image.open('Bank-Branding.jpg'))
     st.sidebar.write('## Upload file')
